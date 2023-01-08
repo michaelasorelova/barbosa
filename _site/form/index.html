@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbosa</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+<dialog open class="modal" id="modal">
+    <form action="" method="post" class="form">
+        <div class="form__title">
+            Book a Room
+            <i class="uil-multiply button-close"></i>
+        </div>
+            <div class="form__field">
+                <label for="first-name">
+                    First Name *
+                </label>
+                <input type="text" name="first-name" id="first-name" required>
+                <label for="last-name">
+                    Last Name *
+                </label>
+                <input type="text" name="last-name" id="last-name" required>
+            </div>
+            <div class="form__field">
+                <label for="email">
+                    Email *
+                </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form__field">
+                <label for="subject">
+                    Subject *
+                </label>
+                <input type="text" name="subject" id="subject" required>
+            </div>
+            <div class="form__field">
+                <label for="message">Message *</label>
+                <textarea name="message" id="message" rows="6" required></textarea>
+            </div>
+            <button class="button" type="submit">Submit</button>
+    </form>
+</dialog>
+</body>
